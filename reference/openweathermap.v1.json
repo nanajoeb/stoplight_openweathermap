@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "openweathermap",
+    "version": "1.0",
+    "description": "Get the current wather, daily forcast 16 days, and a three hour-interval forcast for 5 days for your city. Helpful stats, graphics",
+    "contact": {
+      "name": "Open-Weather-Map",
+      "email": "me@example.com",
+      "url": "open-weather-map"
+    },
+    "termsOfService": "https://open-weather-map.com",
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {},
+  "components": {
+    "schemas": {},
+    "securitySchemes": {
+      "app_id": {
+        "name": "appid",
+        "type": "apiKey",
+        "in": "query"
+      }
+    }
+  }
+}
